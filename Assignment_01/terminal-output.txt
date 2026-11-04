@@ -1,0 +1,22 @@
+Task 1 (run inside a terminal):
+mkdir html-lab
+cd html-lab
+git init
+git config --local user.name "Your Name"
+git config --local user.email "you@example.com"
+git config user.name
+git config user.email
+
+Task 2:
+Create index.html using the included index.html.
+git status
+git add index.html
+git commit -m "Add home page"
+
+Task 3:
+Add the h2 shown in index.html, then:
+git add index.html
+git commit -m "Add next meeting heading"
+git log --oneline
+
+Note: the included index.html represents the final state after Task 3.

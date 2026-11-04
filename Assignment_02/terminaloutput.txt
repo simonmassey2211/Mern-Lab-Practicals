@@ -1,0 +1,30 @@
+Run these commands after completing Assignment 1 inside html-lab:
+Task 1:
+
+$git init --bare ../html-remote
+ Initialized empty Git repository in ~/html-remote/
+
+$git remote add origin ../html-remote
+
+$git remote -v
+ origin	../html-remote (fetch)
+ origin	../html-remote (push)
+
+Task 2:
+git branch -M main
+git push origin main
+    To ../html-remote
+    * [new branch]      main -> main
+cd ..
+
+Task3:
+git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+cd html-copy
+
+git log --oneline
+e3b3e98 Add next meeting heading
+5eacb59 Add home page
+
+If your branch is named master instead of main, use master consistently for the push.

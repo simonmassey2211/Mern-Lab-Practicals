@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile First Cards</title>
+<style>
+.cards { display: flex; flex-direction: column; gap: 16px; }
+.card { padding: 20px; border: 1px solid #777; border-radius: 8px; }
+@media (min-width: 600px) {
+  .cards { flex-direction: row; }
+  .card { flex: 1; }
+}
+</style>
+</head>
+<body>
+<div class="cards">
+  <div class="card"><h2>Card One</h2><p>This card stacks on small screens.</p></div>
+  <div class="card"><h2>Card Two</h2><p>This card sits beside the first on wider screens.</p></div>
+</div>
+</body>
+</html>
